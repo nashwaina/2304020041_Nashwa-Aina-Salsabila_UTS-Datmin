@@ -1,6 +1,8 @@
 **Dataset Wine Quality**
 
-**Pendahuluan**
+
+# Pendahuluan
+
 Data mining merupakan proses pengolahan dan analisis data untuk menemukan pola, hubungan, maupun informasi penting yang tersembunyi di dalam suatu kumpulan data. Dalam perkembangan teknologi dan pengolahan data saat ini, data mining banyak digunakan untuk membantu proses pengambilan keputusan pada berbagai bidang, seperti pendidikan, kesehatan, bisnis, industri, dan teknologi pangan. Salah satu teknik yang sering digunakan dalam data mining adalah klasifikasi. Klasifikasi merupakan metode supervised learning yang digunakan untuk memprediksi suatu kategori atau kelas berdasarkan data yang telah memiliki label sebelumnya. Melalui proses klasifikasi, sebuah model dapat mempelajari pola dari data training kemudian digunakan untuk memprediksi data baru yang belum diketahui kelasnya.
 
 Data set Wine Quality dilakukan menganalisis dengan klasifikasi. Dataset tersebut berisi berbagai karakteristik kimiawi anggur, seperti fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, alcohol, sulphates, pH, dan beberapa variabel lainnya yang memengaruhi kualitas anggur. Variabel target yang digunakan adalah quality, yaitu nilai kualitas anggur berdasarkan skala tertentu. Dataset yang digunakan terdiri dari dataset training yang memiliki label kualitas (quality) dan dataset testing yang belum memiliki label kualitas sehingga perlu dilakukan prediksi menggunakan model machine learning.
@@ -8,18 +10,6 @@ Data set Wine Quality dilakukan menganalisis dengan klasifikasi. Dataset tersebu
 Dalam proses analisis ini digunakan beberapa metode klasifikasi, yaitu K-Nearest Neighbors (KNN), Decision Tree, dan Random Forest. Ketiga metode tersebut dipilih karena memiliki karakteristik yang berbeda dalam melakukan klasifikasi data. KNN bekerja berdasarkan kedekatan jarak antar data, Decision Tree menggunakan aturan berbentuk pohon keputusan, sedangkan Random Forest merupakan metode ensemble yang menggabungkan banyak pohon keputusan sehingga mampu menghasilkan performa klasifikasi yang lebih baik dan stabil. Seluruh model kemudian dievaluasi menggunakan accuracy score, classification report, dan confusion matrix untuk mengetahui performa masing-masing model dalam memprediksi kualitas anggur.
 
 Melalui analisis ini diharapkan dapat diperoleh model klasifikasi terbaik yang mampu memprediksi kualitas anggur dengan tingkat akurasi yang baik. Selain itu, proses analisis ini juga bertujuan untuk memahami tahapan data mining mulai dari persiapan data, preprocessing, eksplorasi data, pembuatan model, evaluasi model, hingga prediksi data testing menggunakan machine learning.
-
-**Tujuan**
-# Pendahuluan
-
-Data mining merupakan proses pengolahan dan analisis data untuk menemukan pola, hubungan, maupun informasi penting yang tersembunyi di dalam suatu kumpulan data. Dalam perkembangan teknologi dan pengolahan data saat ini, data mining banyak digunakan untuk membantu proses pengambilan keputusan pada berbagai bidang, seperti pendidikan, kesehatan, bisnis, industri, dan teknologi pangan. Salah satu teknik yang sering digunakan dalam data mining adalah klasifikasi. Klasifikasi merupakan metode supervised learning yang digunakan untuk memprediksi suatu kategori atau kelas berdasarkan data yang telah memiliki label sebelumnya. Melalui proses klasifikasi, sebuah model dapat mempelajari pola dari data training kemudian digunakan untuk memprediksi data baru yang belum diketahui kelasnya.
-
-Pada Ujian Tengah Semester mata kuliah Data Mining ini dilakukan analisis klasifikasi menggunakan dataset Wine Quality. Dataset tersebut berisi berbagai karakteristik kimiawi anggur, seperti fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, alcohol, sulphates, pH, dan beberapa variabel lainnya yang memengaruhi kualitas anggur. Variabel target yang digunakan adalah `quality`, yaitu nilai kualitas anggur berdasarkan skala tertentu. Dataset yang digunakan terdiri dari dataset training yang memiliki label kualitas (`quality`) dan dataset testing yang belum memiliki label kualitas sehingga perlu dilakukan prediksi menggunakan model machine learning.
-
-Dalam proses analisis ini digunakan beberapa metode klasifikasi, yaitu K-Nearest Neighbors (KNN), Decision Tree, dan Random Forest. Ketiga metode tersebut dipilih karena memiliki karakteristik yang berbeda dalam melakukan klasifikasi data. KNN bekerja berdasarkan kedekatan jarak antar data, Decision Tree menggunakan aturan berbentuk pohon keputusan, sedangkan Random Forest merupakan metode ensemble yang menggabungkan banyak pohon keputusan sehingga mampu menghasilkan performa klasifikasi yang lebih baik dan stabil. Seluruh model kemudian dievaluasi menggunakan accuracy score, classification report, dan confusion matrix untuk mengetahui performa masing-masing model dalam memprediksi kualitas anggur.
-
-Melalui analisis ini diharapkan dapat diperoleh model klasifikasi terbaik yang mampu memprediksi kualitas anggur dengan tingkat akurasi yang baik. Selain itu, proses analisis ini juga bertujuan untuk memahami tahapan data mining mulai dari persiapan data, preprocessing, eksplorasi data, pembuatan model, evaluasi model, hingga prediksi data testing menggunakan machine learning.
-
 ---
 
 # Tujuan
