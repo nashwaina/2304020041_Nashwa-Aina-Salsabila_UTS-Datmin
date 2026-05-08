@@ -1,4 +1,4 @@
-**Dataset Wine Quality**
+# Dataset Wine Quality
 
 
 # Pendahuluan
@@ -9,7 +9,8 @@ Data set Wine Quality dilakukan menganalisis dengan klasifikasi. Dataset tersebu
 
 Dalam proses analisis ini digunakan beberapa metode klasifikasi, yaitu K-Nearest Neighbors (KNN), Decision Tree, dan Random Forest. Ketiga metode tersebut dipilih karena memiliki karakteristik yang berbeda dalam melakukan klasifikasi data. KNN bekerja berdasarkan kedekatan jarak antar data, Decision Tree menggunakan aturan berbentuk pohon keputusan, sedangkan Random Forest merupakan metode ensemble yang menggabungkan banyak pohon keputusan sehingga mampu menghasilkan performa klasifikasi yang lebih baik dan stabil. Seluruh model kemudian dievaluasi menggunakan accuracy score, classification report, dan confusion matrix untuk mengetahui performa masing-masing model dalam memprediksi kualitas anggur.
 
-Melalui analisis ini diharapkan dapat diperoleh model klasifikasi terbaik yang mampu memprediksi kualitas anggur dengan tingkat akurasi yang baik. Selain itu, proses analisis ini juga bertujuan untuk memahami tahapan data mining mulai dari persiapan data, preprocessing, eksplorasi data, pembuatan model, evaluasi model, hingga prediksi data testing menggunakan machine learning.
+Melalui analisis ini diharapkan dapat diperoleh model klasifikasi terbaik yang mampu memprediksi kualitas anggur dengan tingkat akurasi yang baik. Selain itu, proses analisis ini juga bertujuan untuk memahami tahapan data mining mulai dari persiapan data, preprocessing, eksplorasi data, pembuatan model, evaluasi model, hingga prediksi data testing menggunakan machine learning
+
 ---
 
 # Tujuan
